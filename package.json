@@ -4,8 +4,8 @@
   "description": "Desafio de Integração Open Cardinal",
   "main": "BankServer.js",
   "scripts": {
-    "start": "node BankServer.js",
-    "hacker": "node FraudClient.js"
+    "start": "node banco.js",
+    "hacker": "node client_fraude.js"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.10.0",
