@@ -1,0 +1,14 @@
+{
+  "name": "cardinal-poc",
+  "version": "1.0.0",
+  "description": "Desafio de Integração Open Cardinal",
+  "main": "BankServer.js",
+  "scripts": {
+    "start": "node BankServer.js",
+    "hacker": "node FraudClient.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.0",
+    "@grpc/proto-loader": "^0.7.12"
+  }
+}
